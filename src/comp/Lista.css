@@ -1,0 +1,59 @@
+.detalhesfilme {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; /* Cor do texto */
+    font-family: 'Quicksand', sans-serif;;
+    letter-spacing: 0.5px;
+    line-height: 1.4; 
+  }
+
+  .paperBarAdd{
+    align-items: center;
+  }
+
+  .lista-container {
+    margin: 20px;
+  }
+  
+  .lista-paper {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .lista-paper:hover{
+    height: 130%;
+  }
+
+  .avaliarfilme {
+    text-align: center;
+    background-color: #84cccb;
+    color: #ffffff;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+    &:hover {background-color: #304eb1;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: 1s;}
+}
+.avaliarfilme span {
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 100%;
+  }
+
+.botoes-container {
+    display: flex;
+    gap: 8px; 
+    margin-top: 10px; 
+  }

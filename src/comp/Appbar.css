@@ -1,0 +1,33 @@
+.titulo{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    orientation: center;
+    text-align: center;
+}
+
+.header{
+    background-color: #0081a7;
+}
+
+.icon{
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.botaoheader{
+  background-color: transparent;
+  border: 2px solid #fcfcfc;
+  color: rgb(249, 248, 251);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botaoheader:hover{
+    background-color: #497fa1;
+    color:rgb(201, 213, 228);
+}
