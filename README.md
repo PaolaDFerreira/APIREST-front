@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# 🤖 FRONT-END: API REST
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta é a parte Front-end do site de filmes desenvolvido em Java e SpringBoot. Para o front, foram utilizadas a linguagem JavaScript e a biblioteca React, junto de outras bibliotecas como Axios. Esta parte do código se liga ao banco de dados pelo localhost do computador, por isso, é necessário ter instalado o MySQL no computador e importar o banco de dados nas .properties do backend do código, como mostra no repositório APIREST-back. Para que este código funcione, é preciso instalar o Node.js e utilizar o comando "npm start" no terminal do projeto.
+Em relação ao MySQL, este é iniciado junto ao Apache pelo terminal XAMPP.
 
-## Available Scripts
+## 📚 RESUMO:
+Para o código rodar é preciso:
+1. configurar a .properties do APIREST-back de acordo com o seu banco de dados.
+2. iniciar o MySQL e Apache no seu computador, pelo XAMPP.
+3. Usar o comando
+```
+npm start
+```
+ no terminal do APIREST-front.
 
-In the project directory, you can run:
+4. Rodar o código APIREST-back, em uma IDE que suporte o backend Java e as extensões do SpringBoot.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## TELAS E VISUALIZAÇÃO
 
-### `npm test`
+### TELA DE CRIAÇÃO
+![Texto Alternativo](https://drive.google.com/uc?id=1Cdra5i8wqiSeKX57NAVpUVtJ9PMomU9h)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### TELA INICIAL
+![Texto Alternativo](https://drive.google.com/uc?id=12ubnQtqSuvy379oRmc2SKixX3_Abf8WC)
 
-### `npm run build`
+### TELA DE REVIEW
+![Texto Alternativo](https://drive.google.com/uc?id=1mUJJrvDnly-ltNtIi6q5KJZSGM8dftZS)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### TELA INICIAL APÓS SALVAR REVIEW
+![Texto Alternativo](https://drive.google.com/uc?id=1gtkhbEYX0HcUifeC4bA4GrkYAL0D3zSi)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### TELA DE EDIÇÃO
+![Texto Alternativo](https://drive.google.com/uc?id=1puhmiDsa-_usuL1rxdJj8pfuKJPUoSLB)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### TELA INICIAL APÓS SALVAR EDIÇÕES
+![Texto Alternativo](https://drive.google.com/uc?id=1lmrNrWD8f8b88UsR6f4la-c6DXsuokN2)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
